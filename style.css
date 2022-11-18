@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.scene{
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+.scene.one{
+    background-image: url(img/earth-1756274_1920.jpg);
+}
+.scene.two{
+    background-image: url(img/astronaut-11080.jpg);
+}
+.scene.three{
+    background-image: url(img/galaxy-11098.jpg);
+}
+
+
+
+.scene header{
+    max-width: 50%;
+    /*border: 5px solid yellow;*/
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.scene header h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(61, 101, 235);
+}
+
+.scene header h1::after{
+    content: '';
+    border-bottom: 1px solid whitesmoke;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+
+a{
+    color: aquamarine;
+}
